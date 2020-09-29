@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header #annonce {
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.2em;
+
+
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+header img {
+    width: 40%;
+    margin-top: 30px;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+
+a:hover {
+    color: #7ea04d;
+}
+
+#explication {
+    text-align: center;
+
+}
+
+#explication h1 {
+    font-family: 'Archivo Black', sans-serif;
+
+}
+
+#explication p {
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 40px;
+}
+
+.contenu {
+    width: 100%;
+    display: flex;
+
+    align-items: center;
+}
+
+.contenu h2 {
+    font-family: 'Archivo Black', sans-serif;
+    text-align: center;
+}
+
+.contenu p {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+.contenu img {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+
+}
+
+.sport {
+    justify-content: center;
+    background-color: #7ea04d;
+    width: 50%;
+}
+
+.tv {
+    justify-content: center;
+    background-color: #f79071;
+
+    width: 50%;
+}
+
+footer .foot {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px;
+}
+
+
+.réseaux p {
+    margin-top: 0px;
+}
+
+.réseaux {
+    font-size: 0.8em;
+    display: block;
+    background: black;
+    text-align: center;
+    color: white;
+    font-family: 'Indie Flower', cursive;
+
+
+}
+
+.réseaux img {
+    width: 2%;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    footer {
+        
+        position: absolute;
+
+        bottom: 0;
+
+    }
+
+
+    .réseaux {
+        font-size: 0.5em;
+    }
+
+    .réseaux img {
+        width: 5%;
+    }
+
+    .sport {
+       
+        margin-top: 10%;
+        padding: 5%;
+    }
+
+    .tv {
+
+        margin-top: 10%;
+
+        padding: 5%;
+    }
+    #explication p {
+        font-family: 'Raleway', sans-serif;
+        margin-top: 40px;
+        margin-bottom: 0px;
+    }
+}
+@media screen and (max-width: 400px){
+    #explication p {
+       font-size: 0.8em;
+    }
+    footer {
+        
+top: 1170px;
+
+    }
+    .contenu {
+        width: 100%;
+    display: initial;
+    }
+    .sport {
+        justify-content: center;
+        background-color: #7ea04d;
+        padding: 80px;
+    }
+    
+    .tv {
+        justify-content: center;
+        background-color: #f79071;
+        padding: 80px;
+        margin-top: 0px;
+        
+    }
+}
